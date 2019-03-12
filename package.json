@@ -1,0 +1,29 @@
+{
+  "name": "lawyer-bastion",
+  "version": "1.0.0",
+  "description": "App made with MongoDB Express React Node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimasDei/lawyer-bastion.git"
+  },
+  "author": "Simas Dei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SimasDei/lawyer-bastion/issues"
+  },
+  "homepage": "https://github.com/SimasDei/lawyer-bastion#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.19",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.11.0"
+  }
+}
