@@ -2,10 +2,15 @@
  * @constant express - Express
  * @constant mongoose - Establish Connection to DB via mongoose
  * @constant app - Initialize Express Framework
+ * @constant bodyParser - Import Body Parser
  */
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
+const bodyParser = require('body-parser');
+
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 /**
  * @constant users - Users API Routes
